@@ -12,6 +12,7 @@
 		047E26732901AB1B00D73408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E26722901AB1B00D73408 /* Assets.xcassets */; };
 		047E26762901AB1B00D73408 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E26752901AB1B00D73408 /* Preview Assets.xcassets */; };
 		047E267E2901ABA700D73408 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E267D2901ABA700D73408 /* Symbols.swift */; };
+		047E26802901B09B00D73408 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E267F2901B09B00D73408 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		047E26722901AB1B00D73408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047E26752901AB1B00D73408 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		047E267D2901ABA700D73408 /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		047E267F2901B09B00D73408 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				047E267D2901ABA700D73408 /* Symbols.swift */,
+				047E267F2901B09B00D73408 /* Theme.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047E267E2901ABA700D73408 /* Symbols.swift in Sources */,
+				047E26802901B09B00D73408 /* Theme.swift in Sources */,
 				047E26712901AB1800D73408 /* ContentView.swift in Sources */,
 				047E266F2901AB1800D73408 /* PeopleApp.swift in Sources */,
 			);
