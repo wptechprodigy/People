@@ -11,6 +11,7 @@
 		047E26712901AB1800D73408 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E26702901AB1800D73408 /* ContentView.swift */; };
 		047E26732901AB1B00D73408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E26722901AB1B00D73408 /* Assets.xcassets */; };
 		047E26762901AB1B00D73408 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047E26752901AB1B00D73408 /* Preview Assets.xcassets */; };
+		047E267E2901ABA700D73408 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E267D2901ABA700D73408 /* Symbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		047E26702901AB1800D73408 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		047E26722901AB1B00D73408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047E26752901AB1B00D73408 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		047E267D2901ABA700D73408 /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		047E266D2901AB1800D73408 /* People */ = {
 			isa = PBXGroup;
 			children = (
+				047E267C2901AB7400D73408 /* Resources */,
 				047E266E2901AB1800D73408 /* PeopleApp.swift */,
 				047E26702901AB1800D73408 /* ContentView.swift */,
 				047E26722901AB1B00D73408 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				047E26752901AB1B00D73408 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		047E267C2901AB7400D73408 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				047E267D2901ABA700D73408 /* Symbols.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047E267E2901ABA700D73408 /* Symbols.swift in Sources */,
 				047E26712901AB1800D73408 /* ContentView.swift in Sources */,
 				047E266F2901AB1800D73408 /* PeopleApp.swift in Sources */,
 			);
